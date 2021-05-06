@@ -162,8 +162,8 @@ namespace John_Davis_Appointment_App
                 {
                     MySqlCommand cmd = new MySqlCommand();
                     cmd.CommandType = System.Data.CommandType.Text;
-                    cmd.CommandText = "INSERT INTO `appointment` VALUES (1, 1, 1, 'not needed', 'not needed', 'not needed', 'not needed', 'Presentation', 'not needed', '2021-11-16 14:00:00', '2021-11-16 15:00:00', '2020-01-01 00:00:00', 'test', '2020-01-01 00:00:00', 'test'), " +
-                                                                       "(2, 2, 1, 'not needed', 'not needed', 'not needed', 'not needed', 'Scrum', 'not needed', '2021-11-01 15:00:00', '2021-11-01 16:00:00', '2020-01-01 00:00:00', 'test', '2020-01-01 00:00:00', 'test');";
+                    cmd.CommandText = "INSERT INTO `appointment` VALUES (1, 1, 1, 'not needed', 'not needed', 'not needed', 'not needed', 'Psoriasis', 'not needed', '2021-11-16 14:00:00', '2021-11-16 15:00:00', '2020-01-01 00:00:00', 'test', '2020-01-01 00:00:00', 'test'), " +
+                                                                       "(2, 2, 1, 'not needed', 'not needed', 'not needed', 'not needed', 'Eczema', 'not needed', '2021-11-01 15:00:00', '2021-11-01 16:00:00', '2020-01-01 00:00:00', 'test', '2020-01-01 00:00:00', 'test');";
                     cmd.Connection = con;
                     con.Close();
                     con.Open();

@@ -239,6 +239,7 @@
             this.Controls.Add(this.updateAppointmentTypeLabel);
             this.Controls.Add(this.updateAppointmentLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaximizeBox = false;
             this.Name = "UpdateAppointmentForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Update Appointment";

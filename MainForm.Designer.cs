@@ -64,9 +64,9 @@
             this.mainFormTitleLabel.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainFormTitleLabel.Location = new System.Drawing.Point(13, 13);
             this.mainFormTitleLabel.Name = "mainFormTitleLabel";
-            this.mainFormTitleLabel.Size = new System.Drawing.Size(233, 30);
+            this.mainFormTitleLabel.Size = new System.Drawing.Size(455, 30);
             this.mainFormTitleLabel.TabIndex = 0;
-            this.mainFormTitleLabel.Text = "Appointment Manager";
+            this.mainFormTitleLabel.Text = "Beautiful Skin Dermatology Appointment App";
             // 
             // customerDgv
             // 
@@ -287,7 +287,7 @@
             this.scheduleBtn.Name = "scheduleBtn";
             this.scheduleBtn.Size = new System.Drawing.Size(334, 31);
             this.scheduleBtn.TabIndex = 22;
-            this.scheduleBtn.Text = "Schedules for each consultant";
+            this.scheduleBtn.Text = "Schedules for each dermatologist";
             this.scheduleBtn.UseVisualStyleBackColor = true;
             this.scheduleBtn.Click += new System.EventHandler(this.scheduleBtn_Click);
             // 
@@ -351,6 +351,7 @@
             this.Controls.Add(this.customerDgv);
             this.Controls.Add(this.mainFormTitleLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

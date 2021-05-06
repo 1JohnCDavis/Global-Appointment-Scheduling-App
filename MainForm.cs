@@ -86,13 +86,14 @@ namespace John_Davis_Appointment_App
         private void customerDeleteBtn_Click(object sender, EventArgs e)
         {
             try
-            {
+            {                
                 CustomerModel model = new CustomerModel();
                 model.Id = Convert.ToInt32(this.customerDgv.CurrentRow.Cells[0].Value.ToString());
 
                 DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete this customer?", "Delete customer", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
+                    this.Hide();
                     new DeleteCustomer(model);
                 }
             }
@@ -128,6 +129,7 @@ namespace John_Davis_Appointment_App
                 DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete this appointment?", "Delete appointment", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
+                    this.Hide();
                     new DeleteAppointment(model);
                 }
             }
